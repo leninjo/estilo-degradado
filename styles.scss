@@ -1,0 +1,323 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+
+body{
+  font-family: 'Cabin', sans-serif !important;
+  background: #efefef !important;
+}
+
+@mixin button {
+  display: inline-block;
+  text-decoration: none;
+  padding: .5em 1em;
+  color: white;
+  font-size: 18px;
+  border: none;
+
+  &:focus{
+    outline: 0px;
+  }
+}
+
+.btn-gratitude{
+  @include button;
+  background: linear-gradient(45deg, #536FEE, #764ba2);
+  border-radius: 5px;
+  width: 100px;
+}
+.btn-gratitude-rounded{
+  @include button;
+  background: linear-gradient(45deg, #536FEE, #764ba2);
+  border-radius: 25px;
+  width: 100px;
+}
+.btn-gratitude-full{
+  @include button;
+  background: linear-gradient(45deg, #536FEE, #764ba2);
+  border-radius: 5px;
+  width: 100%;
+}
+
+
+.btn-happiness{
+  @include button;
+  background: linear-gradient(45deg, #F1C40F, #DC7633);
+  border-radius: 5px;
+  width: 100px;
+}
+.btn-happiness-rounded{
+  @include button;
+  background: linear-gradient(45deg, #F1C40F, #DC7633);
+  border-radius: 25px;
+  width: 100px;
+}
+.btn-happiness-full{
+  @include button;
+  background: linear-gradient(45deg, #F1C40F, #DC7633);
+  border-radius: 5px;
+  width: 100%;
+}
+
+.btn-tranquility{
+  @include button;
+  background: linear-gradient(45deg, #48C9B0, #1f6ca0);
+  border-radius: 5px;
+  width: 100px;
+}
+.btn-tranquility-rounded{
+  @include button;
+  background: linear-gradient(45deg, #48C9B0, #1f6ca0);
+  border-radius: 25px;
+  width: 100px;
+}
+.btn-tranquility-full{
+  @include button;
+  background: linear-gradient(45deg, #48C9B0, #1f6ca0);
+  border-radius: 5px;
+  width: 100%;
+}
+
+.btn-anger{
+  @include button;
+  background: linear-gradient(45deg, #C0392B, #DC7633);
+  border-radius: 5px;
+  width: 100px;
+}
+.btn-anger-rounded{
+  @include button;
+  background: linear-gradient(45deg, #C0392B, #DC7633);
+  border-radius: 25px;
+  width: 100px;
+}
+.btn-anger-full{
+  @include button;
+  background: linear-gradient(45deg, #C0392B, #DC7633);
+  border-radius: 5px;
+  width: 100%;
+}
+
+.btn-love{
+  @include button;
+  background: linear-gradient(45deg, #783991, #C0392B);
+  border-radius: 5px;
+  width: 100px;
+}
+.btn-love-rounded{
+  @include button;
+  background: linear-gradient(45deg, #783991, #C0392B);
+  border-radius: 25px;
+  width: 100px;
+}
+.btn-love-full{
+  @include button;
+  background: linear-gradient(45deg, #783991, #C0392B);
+  border-radius: 5px;
+  width: 100%;
+}
+
+.btn-sadness{
+  @include button;
+  background: linear-gradient(45deg, #34495E, #5D6D7E);
+  border-radius: 5px;
+  width: 100px;
+}
+.btn-sadness-rounded{
+  @include button;
+  background: linear-gradient(45deg, #34495E, #5D6D7E);
+  border-radius: 25px;
+  width: 100px;
+}
+.btn-sadness-full{
+  @include button;
+  background: linear-gradient(45deg, #34495E, #5D6D7E);
+  border-radius: 5px;
+  width: 100%;
+}
+
+.card{
+  width: 300px;
+  height: 270px;
+  background: linear-gradient(to right, #536FEE, #764ba2);
+  border-radius: 15px !important;
+  overflow: hidden;
+  z-index: 1;
+  border: 0px !important;
+  box-shadow: 5px 5px 8px rgba(23, 20, 29, 0.2);
+
+  .card-image{
+    width: 100%;
+    height: 220px;
+    display: block;
+    object-fit: cover;
+  }
+
+  .title{
+    padding: 10px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: transparent;
+    color: white;
+  }
+}
+
+.card{
+  width: 300px;
+  height: 270px;
+  background: linear-gradient(to right, #536FEE, #764ba2);
+  border-radius: 15px !important;
+  overflow: hidden;
+  z-index: 1;
+  border: 0px !important;
+  box-shadow: 5px 5px 8px rgba(23, 20, 29, 0.2);
+
+  .card-image{
+    width: 100%;
+    height: 220px;
+    display: block;
+    object-fit: cover;
+  }
+
+  .title{
+    padding: 10px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: transparent;
+    color: white;
+  }
+}
+
+.card-2{
+  width: 300px;
+  height: 270px;
+  background: linear-gradient(to right, #F1C40F, #DC7633);
+  border-radius: 15px !important;
+  overflow: hidden;
+  z-index: 1;
+  border: 0px !important;
+  box-shadow: 5px 5px 8px rgba(23, 20, 29, 0.2);
+
+  .card-image{
+    width: 100%;
+    height: 220px;
+    display: block;
+    object-fit: cover;
+  }
+
+  .title{
+    padding: 10px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: transparent;
+    color: white;
+  }
+}
+
+.card-3{
+  width: 300px;
+  height: 270px;
+  background: linear-gradient(to right, #48C9B0, #1f6ca0);
+  border-radius: 15px !important;
+  overflow: hidden;
+  z-index: 1;
+  border: 0px !important;
+  box-shadow: 5px 5px 8px rgba(23, 20, 29, 0.2);
+
+  .card-image{
+    width: 100%;
+    height: 220px;
+    display: block;
+    object-fit: cover;
+  }
+
+  .title{
+    padding: 10px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: transparent;
+    color: white;
+  }
+}
+
+.card-4{
+  width: 300px;
+  height: 270px;
+  background: linear-gradient(to right, #C0392B, #DC7633);
+  border-radius: 15px !important;
+  overflow: hidden;
+  z-index: 1;
+  border: 0px !important;
+  box-shadow: 5px 5px 8px rgba(23, 20, 29, 0.2);
+
+  .card-image{
+    width: 100%;
+    height: 220px;
+    display: block;
+    object-fit: cover;
+  }
+
+  .title{
+    padding: 10px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: transparent;
+    color: white;
+  }
+}
+
+.card-5{
+  width: 400px;
+  height: 370px;
+  background: linear-gradient(to right, #783991, #C0392B);
+  border-radius: 15px !important;
+  overflow: hidden;
+  z-index: 1;
+  border: 0px !important;
+  box-shadow: 5px 5px 8px rgba(23, 20, 29, 0.2);
+
+  .card-image{
+    width: 100%;
+    height: 320px;
+    display: block;
+    object-fit: cover;
+  }
+
+  .title{
+    padding: 10px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: transparent;
+    color: white;
+  }
+}
+
+.card-6{
+  width: 400px;
+  height: 370px;
+  background: linear-gradient(to right,#34495E, #5D6D7E);
+  border-radius: 15px !important;
+  overflow: hidden;
+  z-index: 1;
+  border: 0px !important;
+  box-shadow: 5px 5px 8px rgba(23, 20, 29, 0.2);
+
+  .card-image{
+    width: 100%;
+    height: 320px;
+    display: block;
+    object-fit: cover;
+  }
+
+  .title{
+    padding: 10px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: transparent;
+    color: white;
+  }
+}
